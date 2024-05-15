@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    width: fit-content;
+    margin: 0;
+    padding: 20px;
+    background-color: #000000;
+  }
+  h1 {
+    margin: 0px 0;
+    color: #ff0000;    }
+  h2, h3 {
+    margin: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: #ff5454;    }
+  p {
+    margin: 5px 0;
+    color: #555;
+  }
+  .section {
+    margin-bottom: 20px;
+    background-color: #ffffff;
+    border: 5px solid #ff0000;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  .sectio2 {
+    margin-bottom: 20px;
+    background-color: #000000;
+    border: 5px solid #ff0000;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  .container{
+
+    width: 400px;
+  align-items: center;
+  }
+  .progress {
+    margin-bottom: 6px;
+    margin-top: 6px;
+    display: flex;
+    width: 200px ;
+    height: 10px;
+    background-color: #9e9696; /* cambia el color de la barra de progreso */
+    border-radius: 10px;
+  }
+  .progress-bar{
+  width: 150px;
+  height: 10px;
+  background-color: #ff0000;
+  border-radius: 10px;
+  }
+  .progress-barpy{
+    width: 100px;
+    height: 10px;
+    background-color: #ff0000;
+    border-radius: 10px;
+
+    }
+    .progress-barcp{
+      width: 150px;
+      height: 10px;
+      background-color: #ff0000;
+      border-radius: 10px;
+      }
+
+  .section h2 {
+    color: #ff0000;
+  }
+  .section h3 {
+    margin-top: 0px;
+    margin-bottom: 20px;
+
+  }
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  ul li {
+    margin-bottom: 5px;
+  }
+  .profile-pic {
+    max-width: 200px;
+    border-radius: 50%;
+  }
