@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo de Productos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: #000000;
+        }
+        .container {
+            width: 1500px;
+            margin: 20px;
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            grid-gap: 20px;
+        }
+        .producto {
+            
+            width: 45%;
+            background-color: #fff;
+            margin: 20px;
+            padding: 20px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+
+        }
+        .Fotos {
+            width: 100%;
+            height: 50%;   
+            
+        }
+        .titulo {
+            font-size: 20px;
+            margin-top: 10px;
+            margin-bottom: 5px;
+        }
+        h1 {
+    font-family : ´Agency FB´ ;
+    margin: 0px 0;
+    color: #ff0000;
+    text-align: center;
+  }
+H2, h3 {
+    font-size: large;
+    text-align: center;
+    margin: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: #ff5454;    }
+        
+        .descripcion {
+            font-size: 16px;
+            color: #666;
+            margin-bottom: 10px;
+        }
+        .precio {
+            font-size: 18px;
+            font-weight: bold;
+            color: #333;
+        }
+        @media (max-width: 1024px) {
+            .container {
+                grid-template-columns: repeat(3, 1fr);
+            }
+        }
+
+        /* Media Query para pantallas pequeñas */
+        @media (max-width: 768px) {
+            .container {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        /* Media Query para pantallas muy pequeñas, como smartphones */
+        @media (max-width: 480px) {
+            .container {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>DARKY´S FISH SHOP</h1>
+    <div class="container">
+        <div class="producto">
+            <H2> RED DRAGON HALFMOON BDS</H2>
+            <img src="https://scontent.fmid1-3.fna.fbcdn.net/v/t39.30808-6/438230634_1899774423821004_2124990737350196520_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeG9cdkVbfl5ZsZCycaQv_tz-jnZaptrtCX6Odlqm2u0JUKa_XER8JX-tq7ogPJHRc1pK-YGc8zeAWTbHZHSJN8q&_nc_ohc=_HTbyH96cBsQ7kNvgET_EY2&_nc_ht=scontent.fmid1-3.fna&oh=00_AYCoPUszSerQjFhDK3LEUAzPMfulwfNXX3uSLNwAcH4sxQ&oe=664899B6" Class="Fotos" alt="Producto 1">
+            <div class="descripcion">PAREJA REPRODUCTORA</div>
+            <div class="precio">$1,200.00 MXN<</div>
+        </div>
+        <div class="producto">
+            <H2>FULL RED ALBINO HD</H2>
+            <img src="https://scontent.fmid1-2.fna.fbcdn.net/v/t39.30808-6/426570878_1857025971429183_4604789095251312434_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeFhBgMGkrgl3zU6H43EcKefMtxQhRCJYjYy3FCFEIliNinEhoPrPXty3MYKM4Yk7DHqannXaFLkPpuusXpN9kWe&_nc_ohc=YhpGbyx9nRwQ7kNvgH1DZ5u&_nc_ht=scontent.fmid1-2.fna&oh=00_AYDGbZk8ap2DHdZVvJr_PbYKUsdVzLQ3bN3sj2OZy1ItSg&oe=66487F06" Class="Fotos" alt="Producto 2">
+            <div class="descripcion">PAREJA REPRODUCTORA</div>
+            <div class="precio">$1,200.00 MXN<</div>
+        </div>
+        <div class="producto">
+            <H2>GALAXY BLUE TAIL</H2>
+            <img src="https://scontent.fmid1-3.fna.fbcdn.net/v/t39.30808-6/422859195_1845969332534847_4833030022030018064_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeF3cAIPOU6ki7tX5LOYZcIhXdyvtqOmudRd3K-2o6a51BO2KpX190528rkRvccpGT4JYiFcbwu9sgCERjSkoLKk&_nc_ohc=OAck8w-Lum4Q7kNvgFye4xt&_nc_ht=scontent.fmid1-3.fna&oh=00_AYA6_aeGc7vU0ChC_OXwdgdnEloigdj_j0_wgzCcfsX9Eg&oe=6648B2CA" Class="Fotos" alt="Producto 3">
+            <div class="descripcion">PAREJA REPRODUCTORA</div>
+            <div class="precio">$1,200.00 MXN<</div>
+        </div>
+        <div class="producto">
+            <H2> ALBINO BLUE TOPAZ BDS</h2>
+            <img src="https://scontent.fmid1-2.fna.fbcdn.net/v/t39.30808-6/438254328_1894344101030703_2067332211636832542_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeFF2aElvBx1Ze2wAJQVnNV6N_CGVHsCC2Q38IZUewILZJNe0fGu6bRl14gK_OtB7f5kvpZ1xCQXtbYjWsO25xce&_nc_ohc=cBXM6Nr3RUQQ7kNvgELWQWP&_nc_ht=scontent.fmid1-2.fna&oh=00_AYALpLOFQTN44UCox922iymUDda9tsxU3c-_maAdVY6hlg&oe=66488C4D"Class="Fotos" alt="Producto 4">
+            <div class="descripcion">PAREJA REPRODUCTORA</div>
+            <div class="precio">$1,200.00 MXN<</div>
+        </div>
+        <div class="producto">
+            <h2>METAL RED LACE HALFMOON BDS</h2>
+            <img src="https://scontent.fmid1-2.fna.fbcdn.net/v/t39.30808-6/438108872_1894344054364041_8568578215157989076_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeHvnqFZN-gnz9RTrwOzC0sjouk2RN0_gUKi6TZE3T-BQlQMVzcksYf6Yy2fWFLioIL2ZB79rk11-_vBntrs7rP2&_nc_ohc=2QHZ6Qdie5YQ7kNvgHKb3Sp&_nc_oc=AditV-wmSOlJgvxntFop7PKWA-d8MaOM30Mf9VlgtzQ_pQYZMwmnZIwHo5qL7aTKoZhZIAZLISo-CuFc-Jvf4V1H&_nc_ht=scontent.fmid1-2.fna&oh=00_AYBdS6glmbv95La4YKBwJARAlJfrOypRxRUJS_cG0UBgGQ&oe=66488943"Class="Fotos" alt="Producto 5">
+            <div class="descripcion">PAREJA REPRODUCTORA</div>
+            <div class="precio">$1,200.00 MXN<</div>
+        </div>
+        <div class="producto">
+            <H2>METAL SNAKESKIN BLUE</H2>
+            <img src="https://scontent.fmid1-3.fna.fbcdn.net/v/t39.30808-6/357102932_1739032196561895_2481393691006967360_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeHOymvTJs60OQbsHoivl94U96D3FSI8wK_3oPcVIjzAr5NmEll-NYwTn2q0KTa3eHqQyqOq1FxOeh6lLy8Xer6c&_nc_ohc=Za8DLVyO6psQ7kNvgHE-igZ&_nc_ht=scontent.fmid1-3.fna&oh=00_AYAax4djBhHr8bpCqOLlM3M2gviJAMc4l7hxMbbO5nYu7Q&oe=6648A769" Class="Fotos" alt="Producto 6">
+            <div class="descripcion">PAREJA REPRODUCTORA.</div>
+            <div class="precio">$1,200.00 MXN<</div>
+        </div>
+        <div class="producto">
+            <h2>KOI RED EARS ALBINO</h2>
+            <img src="https://scontent.fmid1-3.fna.fbcdn.net/v/t39.30808-6/421719100_1843347436130370_8218093270974650661_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeExkwZu54-oAz20al202f5begiboFYkz_56CJugViTP_hOn6VSaGdD8AKRzQkzgp4cZVQiikrPQetYJVHBwOrQ2&_nc_ohc=q57zn5ifvygQ7kNvgFI9fJu&_nc_ht=scontent.fmid1-3.fna&oh=00_AYBBs3ckGtp3GH1zzHJMD1W2WtnfrWhthpY8YbPQNHe3LA&oe=66488E23" Class="Fotos">
+            <div class="descripcion">PAREJA REPRODUCTORA.</div>
+            <div class="precio">$1,200.00 MXN</div>
+        </div>
+        <div class="producto">
+            <h2>GOLD LACE HD BLACK EYE</h2>
+            <img src="https://scontent.fmid1-4.fna.fbcdn.net/v/t39.30808-6/432769607_1875018402963273_5887277175544907332_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeEwxUi9dRvKcV2xbR98nqQFxx6IZjN2Dj7HHohmM3YOPoYBVM2qsojg_aaQzS1gHhH81qlADfiAfnve9pjfsf7H&_nc_ohc=BoHVkQxBzMYQ7kNvgF4u1Ph&_nc_ht=scontent.fmid1-4.fna&oh=00_AYCeOrm7QOhjNppah-73u-bVt2UtfNtPOZ8ujS9MI0FC6w&oe=66488F39"Class="Fotos" >
+            <div class="descripcion">PAREJA REPRODUCTORA.</div>
+            <div class="precio">$1,200.00 MXN<</div>
+        </div>
+    </div>
+</body>
+</html>
